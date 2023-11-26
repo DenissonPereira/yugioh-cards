@@ -1,8 +1,12 @@
-
+import { Link } from "react-router-dom"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <nav>
+      <h2>
+        <Link to='/yugioh-cards'>Home</Link>
+      </h2>
+    </nav>
   )
 }
 

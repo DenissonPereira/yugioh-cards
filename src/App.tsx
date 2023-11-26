@@ -1,11 +1,12 @@
-import { Link } from "react-router-dom"
-
+import {BrowserRouter} from 'react-router-dom'
+import RoutesApp from './routes/routes';
 
 function App() {
+
   return (
-    <div className="App">
-      <h1>Olá</h1>
-    </div>
+   <BrowserRouter>
+    <RoutesApp />
+   </BrowserRouter>
   )
 }
 
