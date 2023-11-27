@@ -1,4 +1,5 @@
 import './Conheca.sass'
+import './Conheca_responsivo.sass'
 
 const Conheca = () => {
     return (
