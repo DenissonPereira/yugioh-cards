@@ -1,0 +1,63 @@
+@use '../../sass/mixins'
+@use '../../sass/variables'
+@use '../../sass/fontes'
+
+.corpo
+    margin-top: 10em
+    display: flex
+    flex-direction: row
+    justify-content: center
+
+.img
+    @include mixins.center
+    display: flex
+    flex-direction: column
+    padding: 3em
+    width: 25em
+    img
+        width: 15em
+
+    p
+        margin-top: 1em
+        text-transform: uppercase
+        font-size: 1.8em
+        padding: 1em
+        color: variables.$cor-branca
+        background-color: variables.$cor-azul
+        border-radius: 1em
+        text-shadow: 2px 2px 2px black
+
+
+.noticias
+    width: 30em
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+    h1
+        color: variables.$cor-azul
+        margin-bottom: .5em
+        text-align: center
+
+    h2
+        color: variables.$cor-azul
+        margin-bottom: .5em
+        text-align: justify
+
+    h3
+        color: variables.$cor-preta
+        margin-bottom: .8em
+        text-align: justify
+
+.botao
+    width: 10em
+    height: 3em
+    background-color: variables.$cor-vermelha
+    border: none
+    cursor: pointer
+    color: variables.$cor-branca
+    border-radius: .3em
+    &:hover
+        background-color: variables.$cor-segunda-vermelha
+        border: 2px solid variables.$cor-preta
