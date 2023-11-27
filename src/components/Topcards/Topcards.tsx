@@ -1,6 +1,7 @@
 import Mago from '../../images/magonegro.jpg'
 import Dragao from '../../images/dragaobranco.jpg'
 import Slifer from '../../images/slifer.png'
+import { FaStar } from "react-icons/fa"
 
 import './Topcards.sass'
 
@@ -11,6 +12,15 @@ const Topcards = () => {
       <div className='principal'>
         <div className='container'>
           <h1>Mago Negro</h1>
+          <div className='stars'>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+          </div>
           <figure>
               <img src={Mago} alt="Mago negro" />
           </figure>
@@ -18,6 +28,18 @@ const Topcards = () => {
         </div>
         <div className='container'>
           <h1>Slifer</h1>
+          <div className='stars'>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+          </div>
           <figure>
               <img src={Slifer} alt="Slifer" />
           </figure>
@@ -25,6 +47,16 @@ const Topcards = () => {
         </div>
         <div className='container'>
           <h1>Dragao Branco</h1>
+          <div className='stars'>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+            <div className='star'><FaStar  /></div>
+          </div>
           <figure>
               <img src={Dragao} alt="Dragao branco" />
           </figure>
