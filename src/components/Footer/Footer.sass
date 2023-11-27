@@ -60,18 +60,97 @@
     background-color: variables.$roda-segunda
 
 .sobre_roda_pe
-    margin: 2em
+    margin: 1em
     padding: 2em
     width: 35em
+    h1
+        font-family: 'Cartas'
+        margin-bottom: 1em
+        text-align: center
+        color: variables.$cor-azul
+        font-size: 3em
+
+        span
+            color: variables.$cor-vermelha
+
+    p
+        text-align: justify
+        font-size: 1.2em
+
+.botoes
+    @include mixins.center 
+    button
+        margin-top: 1em
+        margin-right: .1em
+        width: 8em
+        height: 2em
+        border: none
+        border-radius: 2px
+        background-color: variables.$cor-vermelha
+        color: variables.$cor-branca
+        cursor: pointer
+        &:hover
+            border: 2px solid variables.$cor-preta
+            background-color: variables.$cor-segunda-vermelha
 
 .noticias_roda_pe
-    margin: 2em
+    margin: 1em
     padding: 2em
     width: 35em
+    h1
+        font-family: 'Cartas'
+        margin-bottom: 1em
+        text-align: center
+        color: variables.$cor-azul
+        font-size: 3em
+
+        span
+            color: variables.$cor-vermelha 
+
+    p
+        text-align: center
+        margin-bottom: .5em       
 
 .redes_roda_pe
     display: flex
     flex-direction: column
-    margin: 2em
+    margin: 1em
     padding: 2em
     width: 35em
+    h1
+        font-family: 'Cartas'
+        margin-bottom: 1em
+        text-align: center
+        color: variables.$cor-azul
+        font-size: 3em  
+        span
+            color: variables.$cor-vermelha   
+
+.redes
+    @include mixins.center 
+    margin: 2em
+    div
+        margin: .5em
+
+.facebook
+    cursor: pointer
+    &:hover
+        color: variables.$cor-vermelha
+
+.github
+    cursor: pointer
+    &:hover
+        color: variables.$cor-vermelha
+
+.link
+    cursor: pointer
+    &:hover
+        color: variables.$cor-vermelha    
+
+.instagram
+    cursor: pointer
+    &:hover
+        color: variables.$cor-vermelha
+
+.footer_3
+    background-color: variables.$roda-terceira
