@@ -5,6 +5,7 @@ import { FaInstagramSquare } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 
 import './Footer.sass'
+import './Footer_responsivo.sass'
 
 const Footer = () => {
   return (
