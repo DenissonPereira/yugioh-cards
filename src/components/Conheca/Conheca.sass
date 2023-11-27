@@ -1,0 +1,38 @@
+@use '../../sass/mixins'
+@use '../../sass/variables'
+@use '../../sass/fontes'
+
+.visitantes
+    display: flex
+    flex-direction: column
+    @include mixins.center
+    h1  
+        padding: 2em
+        font-family: 'Cartas'
+        text-transform: uppercase
+        font-size: 4em
+        color: variables.$cor-azul
+        span
+            color: variables.$cor-vermelha
+
+    h2
+        padding: 1em
+        font-size: 3em
+        span
+            font-family: 'Yugioh'
+            font-size: .8em
+
+
+.guia
+    padding: 2em
+    width: 60em
+    margin-bottom: 2em
+    background-color: variables.$cor-cartas-des
+    border: 1em inset variables.$cor-contorno-texto
+    &:hover
+        border: 1em inset variables.$cor-cartas
+
+    p
+        font-size: 2em
+
+    

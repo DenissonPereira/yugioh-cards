@@ -100,3 +100,18 @@
     font-size: 3em
     text-transform: uppercase
     text-shadow: 3px 2px 2px variables.$cor-vermelha
+
+.mais
+    @include mixins.center
+    padding: 1em
+    button
+        width: 15em
+        height: 5em
+        border-radius: 1em
+        border: none
+        color: variables.$cor-branca
+        background: variables.$cor-vermelha
+        cursor: pointer
+        &:hover
+            border: 2px solid black
+            background-color: variables.$cor-segunda-vermelha

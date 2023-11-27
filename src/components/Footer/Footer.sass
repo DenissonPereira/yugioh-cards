@@ -2,6 +2,76 @@
 @use '../../sass/variables'
 @use '../../sass/fontes'
 
+.footer_1
+    @include mixins.center
+    display: flex
+    flex-direction: column
+    background-color: variables.$roda-primeira
+    h1
+        color: variables.$cor-azul
+        font-size: 3em
+        span
+            color: variables.$cor-vermelha
 
-.img
+.caixa_footer_1
+    display: flex
+    flex-direction: row
+    padding-top: 2em
+    padding-bottom: 2em
+
+.caixa_footer
+    width: 20em
+    margin-right: 1em
+    background-color: variables.$cor-branca
+    padding: 2em
+    border-radius: .5em
+    img
+        cursor: pointer
+        width: 4em
+        &:hover
+            filter: drop-shadow(4px 4px 2px variables.$cor-azul)
+    h1
+        font-family: 'Cartas'
+        margin-top: .5em
+        margin-bottom: 1em
+        font-size: 3em
+        color: variables.$cor-vermelha
+
+    p
+        font-family: 'Arial'
+        font-size: 1.2em
+
+    button
+        cursor: pointer
+        margin-top: 1em
+        width: 8em
+        height: 3em
+        background-color: variables.$cor-vermelha
+        border: none
+        border-radius: .5em
+        color: variables.$cor-branca
+        text-transform: uppercase
+        &:hover
+            background-color: variables.$cor-segunda-vermelha
+            border: 2px solid variables.$cor-preta
+
+.footer_2
     @include mixins.flex
+    background-color: variables.$roda-segunda
+
+.sobre_roda_pe
+    margin: 2em
+    padding: 2em
+    width: 35em
+
+.noticias_roda_pe
+    margin: 2em
+    padding: 2em
+    width: 35em
+
+.redes_roda_pe
+    display: flex
+    flex-direction: column
+    margin: 2em
+    padding: 2em
+    width: 35em

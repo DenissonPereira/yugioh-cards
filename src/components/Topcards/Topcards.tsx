@@ -74,6 +74,9 @@ const Topcards = () => {
           <p>[DRAGÃO/NORMAL] <br />Este dragão lendário é uma poderosa máquina de destruição. Praticamente invencível, muito poucos enfrentaram esta magnífica criatura e viveram para contar a história. <hr />ATK/3000 DEF/2500</p>
         </div>
       </div>
+      <div className='mais'>
+        <button>Mais</button>
+      </div>
     </div>
   )
 }
