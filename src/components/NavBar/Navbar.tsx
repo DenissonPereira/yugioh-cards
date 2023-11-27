@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 
 import './Navbar.sass'
+import './Navbar_responsivo.sass'
 
 const Navbar = () => {
     return (
