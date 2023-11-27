@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div>
             <nav className="menu">
-                <p>Yu-Gi-Oh Cards</p>
+                <p>Yu-Gi-Oh! <span>Cards</span></p>
                 <ul>
                     <li><Link to='/yugioh-cards'>Home</Link></li>
                     <li><Link to='/yugioh-cards/cards'>Cards</Link></li>

@@ -6,26 +6,37 @@
     @include mixins.remover_margens
     
 
-
 .menu
     display: flex
     flex-direction: row
     background-color: black
 
     p
-        @include mixins.margem
+        margin-left: 1em
+        margin-right: 12em
+        padding: 5px
         font-family: 'Yugioh2'
         color: white
+        font-size: 3em
+
+        span
+            font-family: 'Yugioh'
+            font-size: .7em
 
     ul
         @include mixins.flex
         
     li
         @include mixins.margem
-        margin-right: 4em
+        margin-top: 15px
         font-family: 'Yugioh'
         list-style: none
+        font-size: 2em
 
         a
             text-decoration: none
             color: white
+            padding: 1em
+            &:hover
+                transition: .5s
+                background-color: red
