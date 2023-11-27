@@ -1,15 +1,17 @@
 import Logo from '../../images/logo.png'
 
 import './Corpo.sass'
+import './Corpo_responsivo.sass'
 
 const Corpo = () => {
   return (
     <div className="corpo">
         <div className="img">
+            <p>Acompanhe as últimas notícias</p>
             <figure>
                 <img src={Logo} alt="Logo" />
             </figure>
-            <p>Acompanhe as últimas notícias</p>
+            
         </div>
         <div className="noticias">
             <h1> <span>&raquo;</span>Yu-Gi-Oh! Guia para Iniciantes <span>&laquo;</span></h1>
