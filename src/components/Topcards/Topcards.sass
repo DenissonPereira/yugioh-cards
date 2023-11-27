@@ -4,3 +4,46 @@
 
 .topcards
     background-color: variables.$cor-segundo-azul
+    border-top: .5em solid variables.$cor-vermelha
+    border-bottom: .5em solid variables.$cor-vermelha
+    display: flex
+    flex-direction: column
+
+.principal
+    @include mixins.flex
+    justify-content: center
+
+.container
+    @include mixins.center
+    margin: 2em
+    border: .5em solid variables.$cor-segundo-contorno
+    width: 20.7em
+    display: flex
+    flex-direction: column
+    padding: .5em
+    background-color: variables.$cor-cartas
+    cursor: pointer
+
+    h1
+        color: variables.$cor-branca
+
+    p
+        color: variables.$cor-branca
+        background-color: variables.$cor-cartas-des
+        border-radius: .5em
+        padding: 1em
+        text-align: justify
+        border: .2em solid variables.$cor-contorno-texto
+
+
+    img
+        margin-top: .5em
+        margin-bottom: .5em
+        width: 240px
+        height: 250px
+        border: .2em solid variables.$cor-contorno
+        border-radius: 1em
+        &:hover
+            transition: .5s
+            width: 260px
+            height: 270px

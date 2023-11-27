@@ -1,26 +1,36 @@
-import './Topcards.sass'
 import Mago from '../../images/magonegro.jpg'
 import Dragao from '../../images/dragaobranco.jpg'
 import Slifer from '../../images/slifer.png'
 
+import './Topcards.sass'
+
 const Topcards = () => {
   return (
     <div className='topcards'>
-        <div className='principal'>
-        <h1>Top cards</h1>
+      <h1>Top cards</h1>
+      <div className='principal'>
         <div className='container'>
-            <figure>
-                <img src="" alt="" />
-            </figure>
-
-        </div>
-        <div className='container'>
-
+          <h1>Mago Negro</h1>
+          <figure>
+              <img src={Mago} alt="Mago negro" />
+          </figure>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum doloremque dignissimos tenetur dolorum eum quisquam sunt tempora vero molestias sit accusamus consequatur ipsa fuga ducimus accusantium, architecto ex ratione.</p>
         </div>
         <div className='container'>
-
+          <h1>Slifer</h1>
+          <figure>
+              <img src={Slifer} alt="Slifer" />
+          </figure>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum doloremque dignissimos tenetur dolorum eum quisquam sunt tempora vero molestias sit accusamus consequatur ipsa fuga ducimus accusantium, architecto ex ratione.</p>
         </div>
+        <div className='container'>
+          <h1>Dragao Branco</h1>
+          <figure>
+              <img src={Dragao} alt="Dragao branco" />
+          </figure>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum doloremque dignissimos tenetur dolorum eum quisquam sunt tempora vero molestias sit accusamus consequatur ipsa fuga ducimus accusantium, architecto ex ratione.</p>
         </div>
+      </div>
     </div>
   )
 }
