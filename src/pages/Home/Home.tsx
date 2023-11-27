@@ -2,11 +2,15 @@ import { Link } from "react-router-dom"
 
 const Home = () => {
   return (
-    <nav>
-      <h2>
-        <Link to='/yugioh-cards'>Home</Link>
-      </h2>
-    </nav>
+    <div className="home">
+      <nav className="menu">
+        <ul>
+          <li><Link to='/yugioh-cards'>Home</Link></li>
+          <li><Link to='/yugioh-cards/cards'>Cards</Link></li>
+          <li><Link to='/yugioh-cards/about'>About</Link></li>
+        </ul>
+      </nav>
+    </div>
   )
 }
 
