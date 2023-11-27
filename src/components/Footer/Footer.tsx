@@ -68,7 +68,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='footer_3'>
-        <p>Este site é uma criação para fins de aprendizado. Não representa uma entidade real.</p>
+        <p>Este site é uma criação para fins de aprendizado. Não representa uma entidade real.</p> <br />
         <p>	&copy; 2023. <span>Denisson Pereira</span>.</p>
         </div>
     </div>
