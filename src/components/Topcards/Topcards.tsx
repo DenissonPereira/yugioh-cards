@@ -6,6 +6,7 @@ import Luz from '../../images/Luz.png'
 import { FaStar } from "react-icons/fa"
 
 import './Topcards.sass'
+import './Topcards_responsivo.sass'
 
 const Topcards = () => {
   return (
