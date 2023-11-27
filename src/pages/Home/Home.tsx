@@ -1,15 +1,17 @@
-import { Link } from "react-router-dom"
+import Header from "../../components/Header/Header"
+import Navbar from "../../components/NavBar/Navbar"
+
+import './Home.sass'
 
 const Home = () => {
   return (
     <div className="home">
-      <nav className="menu">
-        <ul>
-          <li><Link to='/yugioh-cards'>Home</Link></li>
-          <li><Link to='/yugioh-cards/cards'>Cards</Link></li>
-          <li><Link to='/yugioh-cards/about'>About</Link></li>
-        </ul>
+      <nav>
+        <Navbar />
       </nav>
+      <figure>
+        <Header />
+      </figure>
     </div>
   )
 }

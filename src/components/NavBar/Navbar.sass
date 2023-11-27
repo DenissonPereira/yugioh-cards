@@ -1,0 +1,31 @@
+@use '../../sass/mixins'
+@use '../../sass/variables'
+@use '../../sass/fontes'
+
+*
+    @include mixins.remover_margens
+    
+
+
+.menu
+    display: flex
+    flex-direction: row
+    background-color: black
+
+    p
+        @include mixins.margem
+        font-family: 'Yugioh2'
+        color: white
+
+    ul
+        @include mixins.flex
+        
+    li
+        @include mixins.margem
+        margin-right: 4em
+        font-family: 'Yugioh'
+        list-style: none
+
+        a
+            text-decoration: none
+            color: white

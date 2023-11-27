@@ -1,8 +1,23 @@
 @use './variables'
 
+@mixin remover_margens
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+
 @mixin center
     display: flex
     justify-content: center
     align-items: center
     text-align: center
     
+@mixin flex
+    display: flex
+    flex-direction: row
+
+@mixin margem
+    margin-right: 5em
+    margin-left: 2em
+    margin-top: 1em
+    margin-bottom: 1em
