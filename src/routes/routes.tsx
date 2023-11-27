@@ -1,6 +1,6 @@
 import {Route, Routes} from 'react-router-dom';
-import Home from '../pages/Home';
-import Cards from '../pages/Cards';
+import Home from '../pages/Home/Home';
+import Cards from '../pages/Cards/Cards';
 
 
 function RoutesApp() {
