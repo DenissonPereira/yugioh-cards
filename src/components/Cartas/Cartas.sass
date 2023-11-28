@@ -1,0 +1,117 @@
+@use '../../sass/mixins'
+@use '../../sass/variables'
+@use '../../sass/fontes'
+
+.box_cartas
+    @include mixins.flex
+    justify-content: center
+
+.carta_nome
+    width: 265px
+    height: 50px
+    box-shadow: 2px 1px 2px 2px black
+    @include mixins.flex
+
+    img
+        border: none
+        width: 2em
+        height: 2em
+        margin-left: 2.7em
+        margin-top: .5em
+
+    h1
+        padding: 5px
+
+.estrelas
+    display: flex
+    flex-direction: row
+    margin-left: 3.5em
+
+.estrela
+    margin-top: .5em
+    color: variables.$cor-estrela
+    padding-right: 2px
+    padding-left: 2px
+    background-color: variables.$cor-fundo-estrela
+    border-radius: 2em
+    margin-right: .1em
+    filter: drop-shadow(2px 2px 2px black)
+
+.caixa
+    @include mixins.center
+    margin: 2em
+    border: .5em solid variables.$cor-segundo-contorno
+    width: 20.9em
+    display: flex
+    flex-direction: column
+    padding: .5em
+    background-color: variables.$cor-cartas
+    cursor: pointer
+
+    h1
+        color: variables.$cor-branca
+        font-size: 1em
+        color: variables.$cor-preta
+        margin-top: 1em
+
+    p
+        color: variables.$cor-preta
+        background-color: variables.$cor-cartas-des
+        border-radius: .5em
+        padding: 1em
+        text-align: justify
+        border: .2em solid variables.$cor-contorno-texto
+
+        hr
+            color: black
+            border: 1px solid black
+
+
+.figura_carta
+    img
+        margin-top: .5em
+        margin-bottom: .5em
+        width: 260px
+        height: 260px
+        border: .4em inset variables.$cor-contorno
+
+#mago_negro
+    font-size: 1em
+    margin-right: 5em
+
+#nome_dragao
+    font-size: .8em
+    margin-top: 1.2em
+
+#slifer
+    background-color: variables.$cor-carta-vermelha
+
+.maga_ilusao
+    background-color: variables.$cor-carta-laranja
+    p
+        font-size: .7em
+
+#maga_estrelas
+    margin-left: 6em
+
+.obelisk
+    background-color: variables.$cor-carta-azul
+    p
+        background-color: variables.$cor-carta-azul-desc
+        font-size: .6em
+
+.nome_magia
+    padding: 0px
+    margin-top: .4em
+    margin-left: 6em
+
+.brain
+    background-color: variables.$cor-carta-verde
+    p
+        background-color: variables.$cor-carta-verde-desc
+        font-size: 1em
+
+#nome_brain
+    color: variables.$cor-branca
+    margin-right: 4.5em
+    
