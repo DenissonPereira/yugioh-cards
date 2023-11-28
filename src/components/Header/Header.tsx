@@ -6,7 +6,7 @@ import './Header_responsivo.sass'
 
 const Header = () => {
   return (
-    <div className="figura">
+    <div className="figura" id='exodia_fig'>
         <img src={Avatar} alt="Exodia" />
         <div className='logo'>
             <img src={Logo} alt="Logo" />

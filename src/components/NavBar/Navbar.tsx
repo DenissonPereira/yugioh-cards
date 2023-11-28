@@ -6,7 +6,7 @@ import './Navbar_responsivo.sass'
 const Navbar = () => {
     return (
         <div>
-            <nav className="menu">
+            <nav className="menu" id="menu">
                 <p>Yu-Gi-Oh! <span>Cards</span></p>
                 <ul>
                     <li><Link to='/yugioh-cards'>Home</Link></li>

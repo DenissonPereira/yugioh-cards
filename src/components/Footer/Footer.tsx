@@ -3,6 +3,7 @@ import { FaFacebookSquare } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa6"
 import { FaInstagramSquare } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
+import { Link } from "react-router-dom"
 
 import './Footer.sass'
 import './Footer_responsivo.sass'
@@ -38,7 +39,7 @@ const Footer = () => {
                 <h1><span>&raquo;</span> Yugioh! Cards <span>&laquo;</span></h1>
                 <p><strong>Yu-Gi-Oh!</strong> Cards é um projeto sem fins lucrativos com o objetivo exclusivo de proporcionar experiências educativas. Este projeto não visa gerar receitas financeiras, mas sim servir como uma ferramenta didática para os entusiastas interessados no universo do Yu-Gi-Oh! Trading Card Game. </p>
                 <div className='botoes'>
-                    <button>Home</button>
+                    <Link to='/yugioh-cards#menu'><button>Home</button></Link>
                     <button>Cards</button>
                     <button>News</button>
                     <button>About</button>

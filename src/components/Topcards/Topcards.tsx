@@ -4,6 +4,7 @@ import Slifer from '../../images/slifer.png'
 import Dark from '../../images/Dark.webp'
 import Luz from '../../images/Luz.png'
 import { FaStar } from "react-icons/fa"
+import { Link } from "react-router-dom"
 
 import './Topcards.sass'
 import './Topcards_responsivo.sass'
@@ -76,7 +77,7 @@ const Topcards = () => {
         </div>
       </div>
       <div className='mais'>
-        <button>Mais</button>
+        <Link to='/yugioh-cards/cards'><button>MAIS</button></Link>
       </div>
     </div>
   )
