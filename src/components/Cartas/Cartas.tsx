@@ -4,6 +4,9 @@ import Slifer from '../../images/slifer.png'
 import Maga from '../../images/maga.webp'
 import Obelisk from '../../images/obelisco.png'
 import Brain from '../../images/BrainControl.webp'
+import Caos from '../../images/magocaos.jpg'
+import Ra from '../../images/ra.jpeg'
+import Sage from '../../images/sage.jpg'
 import Magic from '../../images/spell.webp'
 import Dark from '../../images/Dark.webp'
 import Luz from '../../images/Luz.png'
@@ -132,9 +135,9 @@ const Cartas = () => {
                 </div>
             </div>
             <div className='box_cartas'>
-                <div className='caixa'>
-                    <div className='carta_nome'>
-                        <h1 id='mago_negro'>Mago Negro</h1>
+                <div className='caixa caos'>
+                    <div className='carta_nome caos'>
+                        <h1 id='mago_caos'>Mago do Caos das Trevas</h1>
                         <img src={Dark} alt="Icone Dark" />
                     </div>
                     <div className='estrelas'>
@@ -145,15 +148,16 @@ const Cartas = () => {
                         <div className='estrela'><FaStar /></div>
                         <div className='estrela'><FaStar /></div>
                         <div className='estrela'><FaStar /></div>
+                        <div className='estrela'><FaStar /></div>
                     </div>
                     <figure className='figura_carta'>
-                        <img src={Mago} alt="Mago negro" />
+                        <img src={Caos} alt="Mago negro" />
                     </figure>
-                    <p>[MAGO] <br />O mago definitivo em termos de ataque e defesa. <br /> <br /> <br /><hr />ATK/2500 DEF/2100</p>
+                    <p>[MAGO] <br />Você pode Invocar este card por Invocação-Ritual com "Ritual de Magia Negra". <br /> <br /><hr />ATK/2800 DEF/2600</p>
                 </div>
-                <div className='caixa' id='slifer'>
+                <div className='caixa ra'>
                     <div className='carta_nome'>
-                        <h1>Slifer, o Dragão Celeste</h1>
+                        <h1>O Dragão Alado de Rá</h1>
                         <img src={Luz} alt="Icone Luz" />
                     </div>
                     <div className='estrelas'>
@@ -169,14 +173,14 @@ const Cartas = () => {
                         <div className='estrela'><FaStar /></div>
                     </div>
                     <figure className='figura_carta'>
-                        <img src={Slifer} alt="Slifer" />
+                        <img src={Ra} alt="Slifer" />
                     </figure>
-                    <p>[BESTA DIVINA] <br />Os céus se turvam e os trovôes rugem, anunciando a vinda desta criatura antiga, e a alvorada do verdadeiro poder. <br /> <br /> <hr />ATK/X000 DEF/X000</p>
+                    <p>[BESTA DIVINA] <br />Não pode ser Invocado por Invocação-Especial. Requer 3 Tributos para ser Invocado por Invocação-Normal (não pode ser Baixado Normalmente). A Invocação-Normal deste card não pode ser negada. Quando Invocado por Invocação-Normal, outros cards e efeitos não podem ser ativados. Quando este card for Invocado por Invocação-Normal: você pode pagar PV até restarem apenas 100; este card ganha ATK/DEF igual aos PV pagos. Você pode pagar 1000 PV e, depois, escolha 1 monstro no campo; destrua o alvo. <br /> <br /> <hr />ATK/? DEF/?</p>
                 </div>
-                <div className='caixa'>
+                <div className='caixa sage'>
                     <div className='carta_nome'>
-                        <h1 id='nome_dragao'>Dragão Branco de Olhos Azuis</h1>
-                        <img src={Luz} alt="Icone Luz" />
+                        <h1 id='nome_dragao'>Sábio Negros</h1>
+                        <img src={Dark} alt="Icone Luz" />
                     </div>
                     <div className='estrelas'>
                         <div className='estrela'><FaStar /></div>
@@ -187,11 +191,12 @@ const Cartas = () => {
                         <div className='estrela'><FaStar /></div>
                         <div className='estrela'><FaStar /></div>
                         <div className='estrela'><FaStar /></div>
+                        <div className='estrela'><FaStar /></div>
                     </div>
                     <figure className='figura_carta'>
-                        <img src={Dragao} alt="Dragao branco" />
+                        <img src={Sage} alt="Dragao branco" />
                     </figure>
-                    <p>[DRAGÃO/NORMAL] <br />Este dragão lendário é uma poderosa máquina de destruição. Praticamente invencível, muito poucos enfrentaram esta magnífica criatura e viveram para contar a história. <hr />ATK/3000 DEF/2500</p>
+                    <p>[MAGO/EFEITO] <br />Não pode ser Invocado por Invocação-Normal/Baixado. Primeiro deve ser Invocado por Invocação-Especial (da sua mão ou Deck) ao oferecer como Tributo 1 "Mago Negro" imediatamente depois de aplicar o efeito de "Mago do Tempo", em que você lançou a moeda e venceu. Quando Invocado por Invocação-Especial desta forma: adicione 1 Card de Magia do seu Deck à sua mão. <hr />ATK/2800 DEF/3200</p>
                 </div>
             </div>
         </div>
