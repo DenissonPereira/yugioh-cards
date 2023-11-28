@@ -11,7 +11,9 @@ import Magic from '../../images/spell.webp'
 import Dark from '../../images/Dark.webp'
 import Luz from '../../images/Luz.png'
 import { FaStar } from "react-icons/fa"
+
 import './Cartas.sass'
+import './Cartas.responsivo.sass'
 
 const Cartas = () => {
     return (
