@@ -15,6 +15,8 @@ If you are developing a production application, we recommend updating the config
 
 # Como executar o projeto
 
+No diretório do projeto, execute o seguinte comando:
+
 ```
 npm run dev
 ```
