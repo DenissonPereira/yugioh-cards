@@ -27,11 +27,16 @@ O site **"Yugioh Cards"** é uma aplicação front-end apaixonadamente desenvolv
 - TypeScript
 
 ## Implantação em produção
+
 - Web: `GitHub Pages`
 
 # Como executar o projeto
 
 No diretório do projeto, execute o seguinte comando:
+
+```
+npm i -y
+```
 
 ```
 npm run dev
