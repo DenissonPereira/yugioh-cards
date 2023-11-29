@@ -19,7 +19,6 @@ O site **"Yugioh Cards"** é uma aplicação front-end apaixonadamente desenvolv
 ![Web 1](https://via.placeholder.com/150) 
 
 ![Web 2](https://via.placeholder.com/150) 
-
 # Tecnologias utilizadas
 
 - React
