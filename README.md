@@ -6,7 +6,9 @@
 
 Convidamos você a explorar a aplicação **"Yugioh Cards"** em sua versão online: 
 
-[![NPM](https://img.shields.io/badge/Clique%20Aqui-8A2BE2)](https://denissonpereira.github.io/yugioh-cards/){:target="_blank"} 
+[![NPM](https://img.shields.io/badge/Clique%20Aqui-8A2BE2)](https://denissonpereira.github.io/yugioh-cards/){:target="_blank"}
+
+d
 
 # Sobre o projeto
 
