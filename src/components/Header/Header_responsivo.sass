@@ -2,7 +2,7 @@
 @use '../../sass/variables'
 @use '../../sass/fontes'
 
-@media (max-width: 600px)
+@media (max-width: 320px)
     .logo
         position: absolute
         left: 50%
@@ -10,3 +10,21 @@
 
         img
             width: 20em
+
+@media (min-width: 321px) and (max-width: 600px)
+    .logo
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+
+        img
+            width: 20em
+
+@media (min-width: 601px) and (max-width: 1024px)
+     .logo
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+
+        img
+            width: 20em   
