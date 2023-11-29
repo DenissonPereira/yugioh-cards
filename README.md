@@ -6,6 +6,9 @@
 
 Convidamos você a explorar a aplicação **"Yugioh Cards"** em sua versão online. [Clique aqui](https://denissonpereira.github.io/yugioh-cards/).
 
+
+[![NPM](https://img.shields.io/badge/just%20the%20message-8A2BE2)](https://github.com/DenissonPereira/yugioh-cards/blob/main/LICENSE) 
+
 # Sobre o projeto
 
 O site **"Yugioh Cards"** é uma aplicação front-end apaixonadamente desenvolvida por um fã entusiasta do anime **Yu-Gi-Oh!**. Porém, é importante esclarecer que este site não representa uma entidade real associada à franquia, mas sim um projeto concebido para fins didáticos e de demonstração. Todas as cartas presentes no projeto foram criadas de forma original pelo autor, refletindo seu interesse e dedicação à série. Este projeto oferece aos usuários uma experiência interativa e educativa, proporcionando uma visão única das cartas do universo **Yu-Gi-Oh!**, mas é fundamental compreender que não está vinculado oficialmente à produção ou distribuição da franquia.
