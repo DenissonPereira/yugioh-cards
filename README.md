@@ -18,7 +18,9 @@ O site **"Yugioh Cards"** é uma aplicação front-end apaixonadamente desenvolv
 ![Web 2](./public/web2.png) 
 
 ## Layout mobile
-![Mobile 1](./public/mob1.jpg) ![Mobile 2](./public/mob2.jpg)
+![Mobile 1](./public/mob1.jpg){:width="50%"}
+![Mobile 2](./public/mob2.jpg){:width="50%"}
+
 
 # Tecnologias utilizadas
 
