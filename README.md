@@ -1,4 +1,5 @@
-# RainbowCSS Page
+# Yu-Gi-Oh Cards
+
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/DenissonPereira/yugioh-cards/blob/main/LICENSE) 
 
 # Explore a Aplicação em Funcionamento
