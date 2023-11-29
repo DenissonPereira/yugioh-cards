@@ -181,7 +181,7 @@ const Cartas = () => {
                 </div>
                 <div className='caixa sage'>
                     <div className='carta_nome'>
-                        <h1 id='nome_dragao'>Sábio Negros</h1>
+                        <h1 id='nome_dragao'>Sábio Negro</h1>
                         <img src={Dark} alt="Icone Luz" />
                     </div>
                     <div className='estrelas'>
