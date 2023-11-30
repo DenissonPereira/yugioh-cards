@@ -35,7 +35,7 @@ O site **"Yugioh Cards"** é uma aplicação front-end apaixonadamente desenvolv
 No diretório do projeto, execute o seguinte comando:
 
 ```
-npm i -y
+npm install -y
 ```
 
 ```
