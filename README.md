@@ -32,7 +32,7 @@ O site **"Yugioh Cards"** é uma aplicação front-end apaixonadamente desenvolv
 
 # Como executar o projeto
 
-No diretório do projeto, execute o seguinte comando:
+No diretório do projeto, execute os comandos:
 
 ```
 npm install -y
