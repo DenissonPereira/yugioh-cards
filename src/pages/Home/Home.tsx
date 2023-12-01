@@ -1,9 +1,9 @@
-import Header from "../../components/Header/Header"
-import Navbar from "../../components/NavBar/Navbar"
+import Header from "../../components/layout/Header/Header"
+import Navbar from "../../components/layout/NavBar/Navbar"
 import Corpo from "../../components/Corpo/Corpo"
 import Topcards from "../../components/Topcards/Topcards"
 import Conheca from "../../components/Conheca/Conheca"
-import Footer from "../../components/Footer/Footer"
+import Footer from "../../components/layout/Footer/Footer"
 
 import './Home.sass'
 

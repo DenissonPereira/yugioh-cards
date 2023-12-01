@@ -1,5 +1,5 @@
-import Navbar from "../../components/NavBar/Navbar"
-import Footer from "../../components/Footer/Footer"
+import Navbar from "../../components/layout/NavBar/Navbar"
+import Footer from "../../components/layout/Footer/Footer"
 import Cartas from "../../components/Cartas/Cartas"
 
 import './Cards.sass'

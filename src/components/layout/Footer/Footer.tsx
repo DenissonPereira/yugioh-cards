@@ -1,4 +1,4 @@
-import Empresa from '../../images/empresas.png'
+import Empresa from '../../../images/empresas.png'
 import { FaFacebookSquare } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa6"
 import { FaInstagramSquare } from "react-icons/fa"
