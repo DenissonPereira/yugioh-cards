@@ -102,7 +102,7 @@ const Cartas = () => {
                 </div>
                 <div className='caixa obelisk'>
                     <div className='carta_nome'>
-                        <h1>Obelisco, o Atormentador</h1>
+                        <h1 id='obelisco'>Obelisco, o Atormentador</h1>
                         <img src={Luz} alt="Icone Luz" />
                     </div>
                     <div className='estrelas'>

@@ -1,19 +1,18 @@
 import Header from "../../components/layout/Header/Header"
-import Navbar from "../../components/layout/NavBar/Navbar"
 import Corpo from "../../components/Corpo/Corpo"
 import Topcards from "../../components/Topcards/Topcards"
 import Conheca from "../../components/Conheca/Conheca"
 import Footer from "../../components/layout/Footer/Footer"
+import NavScrollExample from "../../components/layout/NavBar/NavScrollExample"
 
 import './Home.sass'
-
 
 
 const Home = () => {
   return (
     <div className="home" id="home">
       <nav>
-        <Navbar />
+        <NavScrollExample />
       </nav>
       <figure>
         <Header />

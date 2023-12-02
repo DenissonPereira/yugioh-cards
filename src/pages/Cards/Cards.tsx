@@ -1,4 +1,4 @@
-import Navbar from "../../components/layout/NavBar/Navbar"
+import NavScrollExample from "../../components/layout/NavBar/NavScrollExample"
 import Footer from "../../components/layout/Footer/Footer"
 import Cartas from "../../components/Cartas/Cartas"
 
@@ -9,7 +9,7 @@ const Cards = () => {
   return (
     <div className="cards">
       <nav>
-        <Navbar />
+        <NavScrollExample />
       </nav>
       <section className="as_cartas">
         <Cartas />

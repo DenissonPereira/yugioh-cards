@@ -14,7 +14,7 @@
     justify-content: center
 
 
-.container
+.caixa_cards
     @include mixins.center
     margin: 2em
     border: .5em solid variables.$cor-segundo-contorno
@@ -23,7 +23,6 @@
     flex-direction: column
     padding: .5em
     background-color: variables.$cor-cartas
-    cursor: pointer
 
     h1
         color: variables.$cor-branca
@@ -101,13 +100,13 @@
     text-transform: uppercase
     text-shadow: 3px 2px 2px variables.$cor-vermelha
 
-.mais
+.mais_top_cards
     @include mixins.center
     padding: 1em
     a
         text-decoration: none
         color: variables.$cor-branca
-        font-size: 1.5em
+        font-size: 1em
     button
         width: 15em
         height: 5em
