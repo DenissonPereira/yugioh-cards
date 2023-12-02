@@ -21,7 +21,7 @@ function NavScrollExample() {
             navbarScroll
           >
             <Nav.Link href="/yugioh-cards">HOME</Nav.Link>
-            <Nav.Link as={Link} to="/yugioh-cards/cards">CARDS</Nav.Link>
+            <Nav.Link as={Link} to="/yugioh-cards/cards">CARDSs</Nav.Link>
             <Nav.Link href="/yugioh-cards/news">NEWS</Nav.Link>
             <Nav.Link href="/yugioh-cards/about">
               ABOUT
