@@ -20,10 +20,10 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="/yugioh-cards">HOME</Nav.Link>
-            <Nav.Link as={Link} to="/yugioh-cards/cards">CARDSs</Nav.Link>
-            <Nav.Link href="/yugioh-cards/news">NEWS</Nav.Link>
-            <Nav.Link href="/yugioh-cards/about">
+            <Nav.Link as={Link} to="/yugioh-cards">HOME</Nav.Link>
+            <Nav.Link as={Link} to="/yugioh-cards/cards">CARDS</Nav.Link>
+            <Nav.Link as={Link} to="/yugioh-cards/news">NEWS</Nav.Link>
+            <Nav.Link as={Link} to="/yugioh-cards/about">
               ABOUT
             </Nav.Link>
           </Nav>
