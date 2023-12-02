@@ -7,6 +7,7 @@ import Deuses from '../../images/img/deuses.webp'
 import Mago from '../../images/img/mago_negro.jpg'
 
 import './News.sass'
+import './News_responsivo.sass'
 
 
 const News = () => {
