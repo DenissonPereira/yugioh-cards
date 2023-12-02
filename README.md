@@ -22,9 +22,10 @@ O site **"Yugioh Cards"** é uma aplicação front-end apaixonadamente desenvolv
 
 # Tecnologias utilizadas
 
-- React
-- Sass
-- TypeScript
+- React;
+- Sass;
+- TypeScript;
+- React Bootstrap.
 
 ## Implantação em produção
 
