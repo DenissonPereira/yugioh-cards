@@ -39,10 +39,11 @@ const Footer = () => {
                 <h1><span>&raquo;</span> Yugioh! Cards <span>&laquo;</span></h1>
                 <p><strong>Yu-Gi-Oh!</strong> Cards é um projeto sem fins lucrativos com o objetivo exclusivo de proporcionar experiências educativas. Este projeto não visa gerar receitas financeiras, mas sim servir como uma ferramenta didática para os entusiastas interessados no universo do Yu-Gi-Oh! Trading Card Game. </p>
                 <div className='botoes'>
-                    <Link to='/yugioh-cards#menu'><button>Home</button></Link>
-                    <button>Cards</button>
-                    <button>News</button>
-                    <button>About</button>
+                    <Link to='/yugioh-cards'><button>Home</button></Link>
+                    <Link to='/yugioh-cards/cards'><button>Cards</button></Link>
+                    <Link to='/yugioh-cards/news'><button>News</button></Link>
+                    <Link to='/yugioh-cards/about'><button>About</button></Link>
+
                 </div>
             </div>
             <div className='noticias_roda_pe'>

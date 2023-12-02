@@ -11,7 +11,7 @@ import './Home.sass'
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <nav>
         <Navbar />
       </nav>
