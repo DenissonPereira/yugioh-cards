@@ -1,3 +1,136 @@
 @use '../../sass/mixins'
 @use '../../sass/variables'
 @use '../../sass/fontes'
+
+.caixa_news
+    @include mixins.center
+    margin-top: 8em
+    flex-direction: column
+    h1
+        font-size: 3em
+        color: variables.$cor-azul
+    span
+        color: variables.$cor-vermelha
+
+.caixa_noticias
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    margin: 2em
+
+.noticia_menor
+    display: flex
+    flex-direction: column
+
+.news_inicio
+    margin: 2em
+    display: flex
+    flex-direction: column
+    width: 38em
+    span
+        color: variables.$cor-vermelha
+
+    h1
+        color: variables.$cor-azul
+        font-size: 2em
+        text-align: justify
+        margin-bottom: .3em
+
+    h2
+        color: variables.$cor-preta
+        font-size: 1.2em
+        text-align: justify
+
+.linha_news
+    margin: 1em
+    display: flex
+    flex-direction: row
+    width: 40em
+
+.noticia1
+    margin: 1em
+    display: flex
+    flex-direction: column
+    align-items: center
+    h1
+        font-size: 2em
+        margin-bottom: .2em
+        text-align: justify
+    h2
+        font-size: 1em
+        text-align: justify
+        margin-bottom: 1em
+    img
+        border: .4em inset variables.$cor-contorno
+        width: 17em
+        height: 12em
+        margin-bottom: .5em
+    button
+        width: 10em
+        height: 3em
+        color: variables.$cor-branca
+        background-color: variables.$cor-vermelha
+        border: none
+        cursor: pointer
+        &:hover
+            background-color: variables.$cor-segunda-vermelha
+            border: 1px solid black
+
+.noticia2
+    margin: 1em
+    display: flex
+    flex-direction: column
+    align-items: center
+    h1
+        font-size: 2em
+        margin-bottom: .2em
+        text-align: justify
+    h2
+        font-size: 1em
+        text-align: justify
+        margin-bottom: 1em
+    img
+        border: .4em inset variables.$cor-contorno
+        width: 17em
+        height: 12em
+        margin-bottom: .5em
+    button
+        width: 10em
+        height: 3em
+        color: variables.$cor-branca
+        background-color: variables.$cor-vermelha
+        border: none
+        cursor: pointer
+        &:hover
+            background-color: variables.$cor-segunda-vermelha
+            border: 1px solid black
+
+.noticia_maior
+    margin: 2em
+    img
+        border: .4em inset variables.$cor-contorno
+        width: 40em
+
+.noticia_fig_maior
+    width: 40em
+    margin: 1em
+    h1
+        font-size: 2em
+        text-align: justify
+        margin-bottom: .7em
+
+    h2
+        font-size: 1.2em
+        text-align: justify
+        margin-bottom: 2em
+
+    button
+        width: 10em
+        height: 3em
+        color: variables.$cor-branca
+        background-color: variables.$cor-vermelha
+        border: none
+        cursor: pointer
+        &:hover
+            background-color: variables.$cor-segunda-vermelha
+            border: 1px solid black
