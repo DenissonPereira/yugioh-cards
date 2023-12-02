@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
+
 
 import './Nav.sass'
 
@@ -19,7 +21,7 @@ function NavScrollExample() {
             navbarScroll
           >
             <Nav.Link href="/yugioh-cards">HOME</Nav.Link>
-            <Nav.Link href="/yugioh-cards/cards">CARDS</Nav.Link>
+            <Nav.Link as={Link} to="/yugioh-cards/cards">CARDS</Nav.Link>
             <Nav.Link href="/yugioh-cards/news">NEWS</Nav.Link>
             <Nav.Link href="/yugioh-cards/about">
               ABOUT
