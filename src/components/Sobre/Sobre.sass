@@ -1,0 +1,38 @@
+@use '../../sass/mixins'
+@use '../../sass/variables'
+@use '../../sass/fontes'
+
+
+.caixa_sobre
+    @include mixins.center
+    margin-top: 7em
+    display: flex
+    flex-direction: column
+    color: variables.$cor-azul
+    h1
+        font-size: 4em
+    span
+        color: variables.$cor-vermelha
+
+    button
+        width: 10em
+        height: 4em
+        margin-top: 2em
+        border-radius: .5em
+        background-color: variables.$cor-vermelha
+        border: none
+        &:hover
+            background-color: variables.$cor-segunda-vermelha
+            border: 2px solid black        
+
+
+.texto_sobre
+    p
+        text-indent: 3em
+
+.texto_sobre
+    width: 70em
+    margin-top: 2em
+    p
+        text-align: justify
+        font-size: 1.5em
