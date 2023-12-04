@@ -16,20 +16,20 @@ const Footer = () => {
             <div className='caixa_footer_1'>
                 <div className='caixa_footer'>
                     <img src={Empresa} alt="Empresa 1" />
-                    <h1>Card Title</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque quaerat veritatis dolore recusandae obcaecati. Ipsum minima reiciendis itaque laboriosam animi cum veritatis maiores officiis laudantium perferendis. Alias, placeat cum?</p>
+                    <h1>EMPRESA 1</h1>
+                    <p>Somos a <strong>Empresa 1</strong>, líder na área de tecnologia gamer. Convidamos você a descobrir nossos produtos exclusivos e aproveitar ofertas especiais desenvolvidas especialmente para os usuários deste site. Explore o universo da melhor tecnologia para gamers conosco!</p>
                     <button>Conhecer</button>
                 </div>
                 <div className='caixa_footer'>
                     <img src={Empresa} alt="Empresa 2" />
-                    <h1>Card Title</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque quaerat veritatis dolore recusandae obcaecati. Ipsum minima reiciendis itaque laboriosam animi cum veritatis maiores officiis laudantium perferendis. Alias, placeat cum?</p>
+                    <h1>EMPRESA 2</h1>
+                    <p>Seja bem-vindo à <strong>Empresa 2</strong>, líder em suporte para aparelhos eletrônicos. Descubra nossos serviços especializados e aproveite ofertas exclusivas, especialmente criadas para os usuários deste site. Conte conosco para uma experiência de suporte incomparável!</p>
                     <button>Conhecer</button>
                 </div>
                 <div className='caixa_footer'>
                     <img src={Empresa} alt="Empresa 3" />
-                    <h1>Card Title</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque quaerat veritatis dolore recusandae obcaecati. Ipsum minima reiciendis itaque laboriosam animi cum veritatis maiores officiis laudantium perferendis. Alias, placeat cum?</p>
+                    <h1>EMPRESA 3</h1>
+                    <p>Explore a excelência na coleção de cards conosco, na <strong>Empresa 3</strong> - sua loja líder nesse universo fascinante. Descubra nossa variedade única e aproveite ofertas exclusivas preparadas especialmente para os apaixonados por cards. Sua jornada no mundo dos colecionáveis começa aqui!</p>
                     <button>Conhecer</button>
                 </div>
             </div>
@@ -39,7 +39,7 @@ const Footer = () => {
                 <h1><span>&raquo;</span> Yugioh! Cards <span>&laquo;</span></h1>
                 <p><strong>Yu-Gi-Oh!</strong> Cards é um projeto sem fins lucrativos com o objetivo exclusivo de proporcionar experiências educativas. Este projeto não visa gerar receitas financeiras, mas sim servir como uma ferramenta didática para os entusiastas interessados no universo do Yu-Gi-Oh! Trading Card Game. </p>
                 <div className='botoes'>
-                    <Link to='/yugioh-cards'><button>Home</button></Link>
+                    <Link to='/yugioh-cards#navbar'><button>Home</button></Link>
                     <Link to='/yugioh-cards/cards'><button>Cards</button></Link>
                     <Link to='/yugioh-cards/news'><button>News</button></Link>
                     <Link to='/yugioh-cards/about'><button>About</button></Link>

@@ -9,7 +9,7 @@ import './About.sass'
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <nav>
         <Navbar />
       </nav>
