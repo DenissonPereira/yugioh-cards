@@ -10,7 +10,7 @@ import './Nav.sass'
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" id='navbar'>
+    <Navbar expand="lg" className="bg-body-tertiary w-100" id='navbar'>
       <Container fluid>
         <Navbar.Brand href="#" id='logo'>Yu-Gi-Oh! Cards</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
