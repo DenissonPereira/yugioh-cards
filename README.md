@@ -73,7 +73,7 @@ Aguarde a conclusão da compilação e vá para http://localhost:5173/Cifra-Magi
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/DenissonPereira/yugioh-cards/blob/main/LICENSE) 
 
-## Autor
+## ✏️ Autor 
 
 Denisson Pereira Santos
 
